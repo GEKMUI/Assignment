@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	font-family: 'Architects Daughter';font-size: 22px;
+	background-color: #f7cac9;
+	display: block;
+}
+nav{
+	display: flex;
+	float: left;
+    justify-content:space-around;
+    background-color: #91a8d0;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+	max-width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+a{
+	text-decoration: none;
+	color: #f7cac9;
+}
+#title{
+	margin-top:5%;
+	text-align: center;
+}
+form{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    background-color: lightgrey;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+form li {
+	list-style: none;
+	margin-bottom: 5px;
+}
+[type="submit"] {
+	clear: 
+	margin: 20px 0 0 20px;
+	font-size:18px;
+}

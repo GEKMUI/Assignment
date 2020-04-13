@@ -1,0 +1,80 @@
+
+body{
+	margin:0;
+	font-family: 'Architects Daughter';font-size: 22px;
+	background-color: #f7cac9;
+}
+
+nav{
+	display: flex;
+	float: left;
+    justify-content:space-around;
+    background-color: #91a8d0;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+	max-width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+#top{
+	text-decoration: none;
+	color: #f7cac9;
+}
+#flexbox{
+   display:flex;
+	justify-content:flex-start;
+	margin-top: 10%;
+ 
+}
+#col{
+	height:60px;
+	width: 66.67%;
+	
+}
+.p1{
+	font-size:36px;
+	font-weight:bold;
+	color:rgb(51, 51, 51);
+	width:66.67%;
+	
+}
+.num{
+	color:rgba(0, 0, 0, 0.25);
+	font-family:Roboto Slab,serif;
+	font-size:36px;
+	font-weight:bold;
+	margin-left:240px;
+	padding-right:40px;
+}
+p{
+	font-family: 'Sourse Sans Pro',sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: rgb(51,51,51);
+	width: 66.67%;
+}
+#r span{
+	font-weight: bold;
+	font-size: 18px;
+}
+.img{
+	width: 66.67%;
+}
+#col1{
+	height:20px;
+	width: 66.67%;
+	
+}
+a{
+	color: #42b4d6;
+	text-decoration: none;
+	
+}

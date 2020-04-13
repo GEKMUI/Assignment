@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seventeen</title>
+	<link rel="stylesheet" type="text/css" href="survey.css">
+	<script src="survey.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+</head>
+<body>
+
+	<nav>
+		<a id="top" href="about.html">About SVT</a>
+		<a id="top" href="main.html"><img class="logo" src="imageProject/logo2.jpg"></a>
+		<a id="top" href="survey.html">Survey</a>
+	</nav>
+
+	<div id="title">
+		 <h1>Survey</h1>
+	</div>
+
+	<form name="survey" onsubmit="return formValidation()">
+		<ul>
+			<li><label id="carat">Are you CARAT?</label></li>
+			<li><input type="radio" name="yes" value="yes" /><span>Yes</span></li>
+			<li><input type="radio" name="no" value="no" /><span>No</span></li>
+
+			<li><label id="gender">Gender:</label></li>
+			<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+			<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+
+			<li><label for="age">Your Age:</label></li>
+			<li><input name="age" size="5" /></li>
+
+			<li><label for="bias">Your Bias:</label></li>
+			<li><select name="bias">
+				<option selected="" value="Default">(Please select a Member)</option>
+				<option value="1">S.coups</option>
+				<option value="2">JeongHan</option>
+				<option value="3">Joshua</option>
+				<option value="4">Jun</option>
+				<option value="5">Hoshi</option>
+				<option value="6">WonWoo</option>
+				<option value="7">Woozi</option>
+				<option value="8">DK</option>
+				<option value="9">MinGyu</option>
+				<option value="10">The8</option>
+				<option value="11">SeungKwan</option>
+				<option value="12">Vernon</option>
+				<option value="13">Dino</option>
+			</select></li>
+
+			<li><label for="unit">Favorite Unit:</label></li>
+			<li><select name="unit">
+				<option selected="" value="Default">(Please select a Unit)</option>
+				<option value="VU">Vocal Unit</option>
+				<option value="HU">HipHop Unit</option>
+				<option value="PU">Performance Unit</option>
+			</select></li>
+
+			<li><label for="desc">Impression of Seventeen:</label></li>
+			<li><textarea name="desc" id="desc"></textarea></li>
+			<li><input type="submit" name="submit" value="Submit" /></li>
+		</ul>
+		
+	</form>
+
+
+</body>
+</html>
